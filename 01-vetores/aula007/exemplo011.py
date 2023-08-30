@@ -1,3 +1,7 @@
+"""
+Exercicio - complementar o exemplo011. 
+Adicionar um novo atributo referente a quantidade do produto e em seguida desenvolver a funcionalidade 3 - Consultar Valor Total do Estoque, que deve ser calculada qtd_prod_1 X preco_prod_1 + qtd_prod_2 x preco_prod_2 +...+ qtd_prod_n X preco_prod_n
+"""
 opcao = 1
 bd_estoque = []    #bd -> banco de dados
 while opcao != 4:
