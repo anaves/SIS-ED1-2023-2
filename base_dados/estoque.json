@@ -1,0 +1,18 @@
+{
+    "ABC1": {
+        "nome": "laranja",
+        "preco": 3.5
+    },
+    "BFD43": {
+        "nome": "maca",
+        "preco": 4.0
+    },
+    "MEL123": {
+        "nome": "melao",
+        "preco": 6.4
+    },
+    "PER334": {
+        "nome": "pera",
+        "preco": 3.54
+    }
+}

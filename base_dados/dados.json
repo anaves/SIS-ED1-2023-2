@@ -1,1 +1,14 @@
-{"alunos": [{"nome": "Chiclete", "idade": 10, "matriculado": true}, {"nome": "Banana", "idade": 12, "matriculado": false}]}
+{
+    "alunos": [
+        {
+            "nome": "Dunga",
+            "idade": 10,
+            "matriculado": true
+        },
+        {
+            "nome": "Soneca",
+            "idade": 12,
+            "matriculado": false
+        }
+    ]
+}

@@ -7,3 +7,4 @@ with open('base_dados/dados.json', 'r') as arquivo:
     registros = json.load(arquivo)
 
 print(registros)
+print(type(registros))
