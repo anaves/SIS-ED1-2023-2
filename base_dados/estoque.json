@@ -14,5 +14,9 @@
     "PER334": {
         "nome": "pera",
         "preco": 3.54
+    },
+    "ABA001": {
+        "nome": "abacate",
+        "preco": 10.0
     }
 }

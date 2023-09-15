@@ -34,6 +34,9 @@ while opcao != 4:
     elif opcao == 2:
         print('-'*10)
         print("CONSULTAR POR CODIGO")
+        produto = banco_dados[codigo]
+        print(produto['nome'])
+        print(banco_dados[codigo]['nome'])
     elif opcao == 3:
         print('-'*10)
         print("CONSULTAR TODOS")
