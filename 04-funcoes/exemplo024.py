@@ -35,6 +35,8 @@ if __name__ == '__main__':
         elif op == 2:
             media = calcula_media(v)
             print(f"a media eh {media:.2f}")
+        elif op == 3:
+            pass
     else:
         print('Saindo....')
 
