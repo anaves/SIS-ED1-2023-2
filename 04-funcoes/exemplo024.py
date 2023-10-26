@@ -7,7 +7,11 @@ def calcula_media(v):
     if len(v) > 0:
         return sum(v)/len(v)
     else:
-        return 0 
+        return 0
+    print("nunca sera executado")
+
+def pesquisa(valor, lista):
+    return valor in lista
 
 def inicializa_lista(quantidade=5):
     lista = []
@@ -30,13 +34,17 @@ if __name__ == '__main__':
     while op !=4:
         op = menu()
         if op == 1:
-            v = inicializa_lista()
-            print(v)
+            v = inicializa_lista(100000000)
+            #print(v)
         elif op == 2:
             media = calcula_media(v)
             print(f"a media eh {media:.2f}")
         elif op == 3:
-            pass
+            buscar_valor = int(input('Digite valor a ser procurado: '))
+            if pesquisa(buscar_valor, v):
+                print(f'{buscar_valor} ESTA presente na lista')
+            else:
+                print(f'{buscar_valor} NAO ESTA presente na lista')
     else:
         print('Saindo....')
 
